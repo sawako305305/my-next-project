@@ -53,9 +53,10 @@
   bottom: -40px;
 }
 
+/* ↓p.56で追加 */
 @media (max-width: 1000px) {
   .news {
-    width: calc(100%-160px);
+    width: calc(100% - 160px);
   }
 }
 
@@ -89,7 +90,8 @@
   }
 
   .news {
-    width: calc(100% -32px);
+    width: calc(100% - 32px);
+    /* ↑『数学記号と数字の間は常に半角スペースを開けなければならない』が原因で効かなかった */
     padding: 16px 24px;
   }
 
